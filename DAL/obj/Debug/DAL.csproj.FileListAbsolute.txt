@@ -1,0 +1,7 @@
+D:\MyProject\Donet\QLThuVien\DAL\bin\Debug\DAL.dll.config
+D:\MyProject\Donet\QLThuVien\DAL\bin\Debug\DAL.dll
+D:\MyProject\Donet\QLThuVien\DAL\bin\Debug\DAL.pdb
+D:\MyProject\Donet\QLThuVien\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\MyProject\Donet\QLThuVien\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\MyProject\Donet\QLThuVien\DAL\obj\Debug\DAL.dll
+D:\MyProject\Donet\QLThuVien\DAL\obj\Debug\DAL.pdb

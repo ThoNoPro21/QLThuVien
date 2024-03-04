@@ -1,0 +1,6 @@
+D:\MyProject\Donet\QLThuVien\DTO\bin\Debug\DTO.dll
+D:\MyProject\Donet\QLThuVien\DTO\bin\Debug\DTO.pdb
+D:\MyProject\Donet\QLThuVien\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\MyProject\Donet\QLThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\MyProject\Donet\QLThuVien\DTO\obj\Debug\DTO.dll
+D:\MyProject\Donet\QLThuVien\DTO\obj\Debug\DTO.pdb
