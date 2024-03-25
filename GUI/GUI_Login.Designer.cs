@@ -100,6 +100,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txt_Password);
             this.Controls.Add(this.btn_Login);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "GUI_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GUI_Login";

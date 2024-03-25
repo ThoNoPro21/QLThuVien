@@ -28,11 +28,13 @@ namespace GUI
         {
             dgv_PhieuMuon.DataSource = bll_phieumuon.LayTatCa();
         }
+
         private void datePicker_ngaymuon_ValueChanged(object sender, EventArgs e)
         {
             datePicker_ngaymuon.Format = DateTimePickerFormat.Custom;
             datePicker_ngaymuon.CustomFormat = "dd/MM/yyyy HH:mm:ss";
         }
+
         public void ResetTextBox()
         {
             txt_madocgia.Clear();
@@ -122,7 +124,7 @@ namespace GUI
             try
             {
                 if (MessageBox.Show("Bạn có chắc muốn thêm phiếu mượn " , "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question,
-                MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+                MessageBoxDefaultButton.Button1) == DialogResult.Yes)
                 {
                     bool result=bll_phieumuon.InsertPhieuMuon(maphieumuon, madocgia, masach, ngaymuon, ngayphaitra, nguoitao);
                     if (result)
@@ -188,7 +190,7 @@ namespace GUI
                 if (MessageBox.Show("Bạn có chắc muốn xóa mã phiếu " + MaPhieu, "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question,
                 MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                 {
-                    var result=bll_phieumuon.DeletePhieuMuon(MaPhieu);
+                    var result = bll_phieumuon.DeletePhieuMuon(MaPhieu);
                     if (result)
                     {
                         MessageBox.Show("Xóa thành công !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -224,7 +226,12 @@ namespace GUI
 
         private void btn_Sua_Click(object sender, EventArgs e)
         {
-            if (txt_madocgia.Text.Trim() == "" || txt_masach.Text.Trim() == ""||txt_maphieumuon.Text=="")
+            if(txt_maphieumuon.Text == "")
+            {
+                MessageBox.Show("Phiếu chưa được tạo !", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (txt_madocgia.Text.Trim() == "" || txt_masach.Text.Trim() == "")
             {
                 MessageBox.Show("Không được để trống !", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -345,7 +352,9 @@ namespace GUI
 
         }
 
-        
-        
+        private void txt_madocgia_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -23,7 +23,7 @@ namespace GUI
             this.KeyDown += GUI_Login_KeyDown;
         }
 
-        BLL_Account bll_account = new BLL_Account();
+        BLL_DocGia bll_docgia = new BLL_DocGia();
        
 
         
@@ -45,8 +45,8 @@ namespace GUI
                 MessageBox.Show("Không được bỏ trống !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            var passHash = bll_account.CalculateMD5Hash(pass);
-            var IsCheck = bll_account.Loggin(hoten, passHash);
+            var passHash = bll_docgia.CalculateMD5Hash(pass);
+            var IsCheck = bll_docgia.Loggin(hoten, passHash);
             if (IsCheck != null)
             {
                 try

@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL_Account.cs" />
     <Compile Include="BLL_DocGia.cs" />
     <Compile Include="BLL_PhieuMuon.cs" />
     <Compile Include="BLL_Sach.cs" />

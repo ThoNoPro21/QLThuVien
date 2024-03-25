@@ -19,7 +19,7 @@ namespace GUI
             InitializeComponent();
            
         }
-        BLL_Account account=new BLL_Account();
+        BLL_DocGia bll_docgia =new BLL_DocGia();
         
         private void btn_Register_Click(object sender, EventArgs e)
         {
@@ -37,8 +37,8 @@ namespace GUI
                 MessageBox.Show("Mật khẩu không khớp !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            string passHash=account.CalculateMD5Hash(pass);
-            var IsCheck = account.Register(hoten, passHash);
+            string passHash=bll_docgia.CalculateMD5Hash(pass);
+            var IsCheck = bll_docgia.Register(hoten, passHash);
             if (IsCheck)
             {
                 MessageBox.Show("Đăng ký thành công !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);

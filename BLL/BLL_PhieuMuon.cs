@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -73,20 +74,30 @@ namespace BLL
         // Xóa phiếu mượn
         public bool DeletePhieuMuon(int maphieumuon)
         {
-            PHIEUMUON phieumuon=DB.PHIEUMUONs.Where(ma => ma.MaPhieuMuon == maphieumuon).FirstOrDefault();
+            PHIEUMUON phieumuon = DB.PHIEUMUONs.FirstOrDefault(ma => ma.MaPhieuMuon == maphieumuon);
             try
             {
                 if (phieumuon != null)
                 {
-                    DB.PHIEUMUONs.DeleteOnSubmit(phieumuon);
-                    DB.SubmitChanges();
+                    if (phieumuon.PHIEUTRAs.Any())
+                    {
+                        return false;
+                    }
+                    else{
+                        DB.PHIEUMUONs.DeleteOnSubmit(phieumuon);
+                        DB.SubmitChanges();
+                        return true;
+                    }                        
                 }
-                return true;
+                return false;
+
             }
-            catch
+            catch (Exception ex)
             {
+                Console.WriteLine("Lỗi xảy ra khi xóa phiếu mượn: " + ex.Message);
                 return false;
             }
+
         }
         // Tìm phiếu mượn theo Mã Phiếu
         public PHIEUMUON TimPhieuMuon(int maphieumuon)
@@ -94,22 +105,29 @@ namespace BLL
             return DB.PHIEUMUONs.Where(mp=>mp.MaPhieuMuon==maphieumuon).FirstOrDefault();   
         }
         // Sửa phiếu mượn
-       public bool UpdatePhieuMuon(int maphieumuon,int madocgia,int masach,DateTime ngaymuon,DateTime ngayphaitra,int nguoitao)
+        public bool UpdatePhieuMuon(int maphieumuon, int madocgia, int masach, DateTime ngaymuon, DateTime ngayphaitra, int nguoitao)
         {
-            PHIEUMUON phieumuon = DB.PHIEUMUONs.Where(mp => mp.MaPhieuMuon == maphieumuon).FirstOrDefault();
-            if (phieumuon != null)
+            try
             {
-                phieumuon.MaDocGia = madocgia;
-                phieumuon.MaSach = masach;
-                phieumuon.NgayMuon = ngaymuon;
-                phieumuon.NgayPhaiTra = ngayphaitra;
-                phieumuon.NguoiTao= nguoitao;
-                DB.SubmitChanges() ;
-                return true;
+                PHIEUMUON phieumuon = DB.PHIEUMUONs.Where(mp => mp.MaPhieuMuon == maphieumuon).FirstOrDefault();
+                if (phieumuon != null)
+                {
+                    phieumuon.MaDocGia = madocgia;
+                    phieumuon.MaSach = masach;
+                    phieumuon.NgayMuon = ngaymuon;
+                    phieumuon.NgayPhaiTra = ngayphaitra;
+                    phieumuon.NguoiTao = nguoitao;
+                    DB.SubmitChanges();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
-            else
+            catch
             {
-                return false;
+                throw new ArgumentException("Error here ?");
             }
         }
         // Xử lý số lượng sách khi mượn thành công !
@@ -118,7 +136,11 @@ namespace BLL
             SACH sach=DB.SACHes.Where(ma => ma.MaSach == masach).FirstOrDefault();
             if(sach != null)
             {
-                sach.SoLuong -= 1;
+                try
+                {
+                    sach.SoLuong -= 1;
+                }
+                catch { }
             }
         }
         // Check số lượng sách đã hết chưa

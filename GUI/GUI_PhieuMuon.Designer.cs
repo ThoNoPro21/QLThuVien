@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUI_PhieuMuon));
             this.groupBoxThongTinMuon = new System.Windows.Forms.GroupBox();
             this.datePicker_ngaytra = new System.Windows.Forms.DateTimePicker();
             this.datePicker_ngaymuon = new System.Windows.Forms.DateTimePicker();
@@ -70,133 +71,90 @@
             this.groupBoxThongTinMuon.Controls.Add(this.label_masach);
             this.groupBoxThongTinMuon.Controls.Add(this.label_ngaymuon);
             this.groupBoxThongTinMuon.Controls.Add(this.label_ngaytra);
-            this.groupBoxThongTinMuon.Location = new System.Drawing.Point(26, 45);
+            resources.ApplyResources(this.groupBoxThongTinMuon, "groupBoxThongTinMuon");
             this.groupBoxThongTinMuon.Name = "groupBoxThongTinMuon";
-            this.groupBoxThongTinMuon.Size = new System.Drawing.Size(398, 199);
-            this.groupBoxThongTinMuon.TabIndex = 0;
             this.groupBoxThongTinMuon.TabStop = false;
-            this.groupBoxThongTinMuon.Text = "Thông tin phiếu mượn";
             // 
             // datePicker_ngaytra
             // 
             this.datePicker_ngaytra.Checked = false;
-            this.datePicker_ngaytra.CustomFormat = "dd/MM/yyyy HH:mm:ss";
+            resources.ApplyResources(this.datePicker_ngaytra, "datePicker_ngaytra");
             this.datePicker_ngaytra.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.datePicker_ngaytra.Location = new System.Drawing.Point(157, 151);
             this.datePicker_ngaytra.MinDate = new System.DateTime(2020, 12, 1, 0, 0, 0, 0);
             this.datePicker_ngaytra.Name = "datePicker_ngaytra";
-            this.datePicker_ngaytra.Size = new System.Drawing.Size(169, 20);
-            this.datePicker_ngaytra.TabIndex = 12;
             this.datePicker_ngaytra.Value = new System.DateTime(2024, 1, 26, 9, 40, 48, 0);
             // 
             // datePicker_ngaymuon
             // 
             this.datePicker_ngaymuon.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.datePicker_ngaymuon.Location = new System.Drawing.Point(157, 119);
+            resources.ApplyResources(this.datePicker_ngaymuon, "datePicker_ngaymuon");
             this.datePicker_ngaymuon.MinDate = new System.DateTime(2020, 12, 1, 0, 0, 0, 0);
             this.datePicker_ngaymuon.Name = "datePicker_ngaymuon";
-            this.datePicker_ngaymuon.Size = new System.Drawing.Size(169, 20);
-            this.datePicker_ngaymuon.TabIndex = 11;
             this.datePicker_ngaymuon.ValueChanged += new System.EventHandler(this.datePicker_ngaymuon_ValueChanged);
             // 
             // txt_madocgia
             // 
-            this.txt_madocgia.Location = new System.Drawing.Point(157, 55);
+            resources.ApplyResources(this.txt_madocgia, "txt_madocgia");
             this.txt_madocgia.Name = "txt_madocgia";
-            this.txt_madocgia.Size = new System.Drawing.Size(169, 20);
-            this.txt_madocgia.TabIndex = 9;
+            this.txt_madocgia.TextChanged += new System.EventHandler(this.txt_madocgia_TextChanged);
             // 
             // label_maphieumuon
             // 
-            this.label_maphieumuon.AutoSize = true;
-            this.label_maphieumuon.Location = new System.Drawing.Point(24, 33);
+            resources.ApplyResources(this.label_maphieumuon, "label_maphieumuon");
             this.label_maphieumuon.Name = "label_maphieumuon";
-            this.label_maphieumuon.Size = new System.Drawing.Size(86, 13);
-            this.label_maphieumuon.TabIndex = 8;
-            this.label_maphieumuon.Text = "Mã phiếu mượn :";
             // 
             // txt_maphieumuon
             // 
-            this.txt_maphieumuon.Enabled = false;
-            this.txt_maphieumuon.Location = new System.Drawing.Point(157, 26);
+            resources.ApplyResources(this.txt_maphieumuon, "txt_maphieumuon");
             this.txt_maphieumuon.Name = "txt_maphieumuon";
             this.txt_maphieumuon.ReadOnly = true;
-            this.txt_maphieumuon.Size = new System.Drawing.Size(169, 20);
-            this.txt_maphieumuon.TabIndex = 7;
             // 
             // label_madocgia
             // 
-            this.label_madocgia.AutoSize = true;
-            this.label_madocgia.Location = new System.Drawing.Point(24, 62);
+            resources.ApplyResources(this.label_madocgia, "label_madocgia");
             this.label_madocgia.Name = "label_madocgia";
-            this.label_madocgia.Size = new System.Drawing.Size(67, 13);
-            this.label_madocgia.TabIndex = 6;
-            this.label_madocgia.Text = "Mã độc giả :";
             // 
             // txt_masach
             // 
-            this.txt_masach.Location = new System.Drawing.Point(157, 90);
+            resources.ApplyResources(this.txt_masach, "txt_masach");
             this.txt_masach.Name = "txt_masach";
-            this.txt_masach.Size = new System.Drawing.Size(169, 20);
-            this.txt_masach.TabIndex = 5;
             // 
             // label_masach
             // 
-            this.label_masach.AutoSize = true;
-            this.label_masach.Location = new System.Drawing.Point(24, 97);
+            resources.ApplyResources(this.label_masach, "label_masach");
             this.label_masach.Name = "label_masach";
-            this.label_masach.Size = new System.Drawing.Size(54, 13);
-            this.label_masach.TabIndex = 4;
-            this.label_masach.Text = "Mã sách :";
             // 
             // label_ngaymuon
             // 
-            this.label_ngaymuon.AutoSize = true;
-            this.label_ngaymuon.Location = new System.Drawing.Point(24, 125);
+            resources.ApplyResources(this.label_ngaymuon, "label_ngaymuon");
             this.label_ngaymuon.Name = "label_ngaymuon";
-            this.label_ngaymuon.Size = new System.Drawing.Size(67, 13);
-            this.label_ngaymuon.TabIndex = 2;
-            this.label_ngaymuon.Text = "Ngày mượn :";
             // 
             // label_ngaytra
             // 
-            this.label_ngaytra.AutoSize = true;
-            this.label_ngaytra.Location = new System.Drawing.Point(24, 158);
+            resources.ApplyResources(this.label_ngaytra, "label_ngaytra");
             this.label_ngaytra.Name = "label_ngaytra";
-            this.label_ngaytra.Size = new System.Drawing.Size(53, 13);
-            this.label_ngaytra.TabIndex = 0;
-            this.label_ngaytra.Text = "Ngày trả :";
             // 
             // btn_Them
             // 
             this.btn_Them.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Them.Location = new System.Drawing.Point(475, 55);
+            resources.ApplyResources(this.btn_Them, "btn_Them");
             this.btn_Them.Name = "btn_Them";
-            this.btn_Them.Size = new System.Drawing.Size(75, 23);
-            this.btn_Them.TabIndex = 1;
-            this.btn_Them.Text = "Thêm";
             this.btn_Them.UseVisualStyleBackColor = true;
             this.btn_Them.Click += new System.EventHandler(this.btn_Them_Click);
             // 
             // btn_Sua
             // 
             this.btn_Sua.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Sua.Location = new System.Drawing.Point(475, 97);
+            resources.ApplyResources(this.btn_Sua, "btn_Sua");
             this.btn_Sua.Name = "btn_Sua";
-            this.btn_Sua.Size = new System.Drawing.Size(75, 23);
-            this.btn_Sua.TabIndex = 2;
-            this.btn_Sua.Text = "Sửa";
             this.btn_Sua.UseVisualStyleBackColor = true;
             this.btn_Sua.Click += new System.EventHandler(this.btn_Sua_Click);
             // 
             // btn_Xoa
             // 
             this.btn_Xoa.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Xoa.Location = new System.Drawing.Point(475, 137);
+            resources.ApplyResources(this.btn_Xoa, "btn_Xoa");
             this.btn_Xoa.Name = "btn_Xoa";
-            this.btn_Xoa.Size = new System.Drawing.Size(75, 23);
-            this.btn_Xoa.TabIndex = 3;
-            this.btn_Xoa.Text = "Xóa";
             this.btn_Xoa.UseVisualStyleBackColor = true;
             this.btn_Xoa.Click += new System.EventHandler(this.btn_Xoa_Click);
             // 
@@ -213,101 +171,85 @@
             this.NguoiTao,
             this.Status});
             this.dgv_PhieuMuon.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dgv_PhieuMuon.Location = new System.Drawing.Point(26, 252);
+            resources.ApplyResources(this.dgv_PhieuMuon, "dgv_PhieuMuon");
             this.dgv_PhieuMuon.Name = "dgv_PhieuMuon";
-            this.dgv_PhieuMuon.Size = new System.Drawing.Size(762, 150);
-            this.dgv_PhieuMuon.TabIndex = 4;
             this.dgv_PhieuMuon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_PhieuMuon_CellClick);
             this.dgv_PhieuMuon.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgv_PhieuMuon_CellFormatting);
             // 
             // MaPhieuMuon
             // 
             this.MaPhieuMuon.DataPropertyName = "MaPhieuMuon";
-            this.MaPhieuMuon.HeaderText = "Mã Phiếu";
+            resources.ApplyResources(this.MaPhieuMuon, "MaPhieuMuon");
             this.MaPhieuMuon.Name = "MaPhieuMuon";
             // 
             // HoTenDocGia
             // 
             this.HoTenDocGia.DataPropertyName = "HoTenDocGia";
-            this.HoTenDocGia.HeaderText = "Tên Độc Giả";
+            resources.ApplyResources(this.HoTenDocGia, "HoTenDocGia");
             this.HoTenDocGia.Name = "HoTenDocGia";
             // 
             // TenSach
             // 
             this.TenSach.DataPropertyName = "TenSach";
-            this.TenSach.HeaderText = "Tên Sách ";
+            resources.ApplyResources(this.TenSach, "TenSach");
             this.TenSach.Name = "TenSach";
             // 
             // NgayMuon
             // 
             this.NgayMuon.DataPropertyName = "NgayMuon";
-            this.NgayMuon.HeaderText = "Ngày Mượn";
+            resources.ApplyResources(this.NgayMuon, "NgayMuon");
             this.NgayMuon.Name = "NgayMuon";
             // 
             // NgayPhaiTra
             // 
             this.NgayPhaiTra.DataPropertyName = "NgayPhaiTra";
-            this.NgayPhaiTra.HeaderText = "Ngày Phải Trả";
+            resources.ApplyResources(this.NgayPhaiTra, "NgayPhaiTra");
             this.NgayPhaiTra.Name = "NgayPhaiTra";
             // 
             // NguoiTao
             // 
             this.NguoiTao.DataPropertyName = "NguoiTao";
-            this.NguoiTao.HeaderText = "Người Tạo";
+            resources.ApplyResources(this.NguoiTao, "NguoiTao");
             this.NguoiTao.Name = "NguoiTao";
             // 
             // Status
             // 
             this.Status.DataPropertyName = "Status";
-            this.Status.HeaderText = "Tình Trạng";
+            resources.ApplyResources(this.Status, "Status");
             this.Status.Name = "Status";
             // 
             // btn_Reset
             // 
             this.btn_Reset.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Reset.Location = new System.Drawing.Point(475, 180);
+            resources.ApplyResources(this.btn_Reset, "btn_Reset");
             this.btn_Reset.Name = "btn_Reset";
-            this.btn_Reset.Size = new System.Drawing.Size(75, 23);
-            this.btn_Reset.TabIndex = 5;
-            this.btn_Reset.Text = "Reset";
             this.btn_Reset.UseVisualStyleBackColor = true;
             this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
             // 
             // btn_TimKiem
             // 
             this.btn_TimKiem.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_TimKiem.Location = new System.Drawing.Point(475, 221);
+            resources.ApplyResources(this.btn_TimKiem, "btn_TimKiem");
             this.btn_TimKiem.Name = "btn_TimKiem";
-            this.btn_TimKiem.Size = new System.Drawing.Size(75, 23);
-            this.btn_TimKiem.TabIndex = 6;
-            this.btn_TimKiem.Text = "Tìm kiếm";
             this.btn_TimKiem.UseVisualStyleBackColor = true;
             this.btn_TimKiem.Click += new System.EventHandler(this.btn_TimKiem_Click);
             // 
             // txt_TimKiem
             // 
-            this.txt_TimKiem.Location = new System.Drawing.Point(583, 221);
+            resources.ApplyResources(this.txt_TimKiem, "txt_TimKiem");
             this.txt_TimKiem.Name = "txt_TimKiem";
-            this.txt_TimKiem.Size = new System.Drawing.Size(169, 20);
-            this.txt_TimKiem.TabIndex = 13;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(682, 226);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 13);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "Mã độc giả";
             // 
             // GUI_PhieuMuon
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_TimKiem);
             this.Controls.Add(this.btn_TimKiem);
@@ -318,7 +260,6 @@
             this.Controls.Add(this.btn_Them);
             this.Controls.Add(this.groupBoxThongTinMuon);
             this.Name = "GUI_PhieuMuon";
-            this.Size = new System.Drawing.Size(791, 405);
             this.Load += new System.EventHandler(this.GUI_PhieuMuon_Load);
             this.groupBoxThongTinMuon.ResumeLayout(false);
             this.groupBoxThongTinMuon.PerformLayout();

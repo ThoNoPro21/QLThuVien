@@ -117,6 +117,470 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;datePicker_ngaytra.Name" xml:space="preserve">
+    <value>datePicker_ngaytra</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaytra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaytra.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaytra.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaymuon.Name" xml:space="preserve">
+    <value>datePicker_ngaymuon</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaymuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaymuon.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaymuon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_madocgia.Name" xml:space="preserve">
+    <value>txt_madocgia</value>
+  </data>
+  <data name="&gt;&gt;txt_madocgia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_madocgia.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;txt_madocgia.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label_maphieumuon.Name" xml:space="preserve">
+    <value>label_maphieumuon</value>
+  </data>
+  <data name="&gt;&gt;label_maphieumuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_maphieumuon.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;label_maphieumuon.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_maphieumuon.Name" xml:space="preserve">
+    <value>txt_maphieumuon</value>
+  </data>
+  <data name="&gt;&gt;txt_maphieumuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_maphieumuon.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;txt_maphieumuon.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label_madocgia.Name" xml:space="preserve">
+    <value>label_madocgia</value>
+  </data>
+  <data name="&gt;&gt;label_madocgia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_madocgia.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;label_madocgia.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_masach.Name" xml:space="preserve">
+    <value>txt_masach</value>
+  </data>
+  <data name="&gt;&gt;txt_masach.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_masach.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;txt_masach.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label_masach.Name" xml:space="preserve">
+    <value>label_masach</value>
+  </data>
+  <data name="&gt;&gt;label_masach.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_masach.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;label_masach.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label_ngaymuon.Name" xml:space="preserve">
+    <value>label_ngaymuon</value>
+  </data>
+  <data name="&gt;&gt;label_ngaymuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_ngaymuon.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;label_ngaymuon.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label_ngaytra.Name" xml:space="preserve">
+    <value>label_ngaytra</value>
+  </data>
+  <data name="&gt;&gt;label_ngaytra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_ngaytra.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;label_ngaytra.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBoxThongTinMuon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 45</value>
+  </data>
+  <data name="groupBoxThongTinMuon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 199</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBoxThongTinMuon.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBoxThongTinMuon.Text" xml:space="preserve">
+    <value>Thông tin phiếu mượn</value>
+  </data>
+  <data name="&gt;&gt;groupBoxThongTinMuon.Name" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;groupBoxThongTinMuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxThongTinMuon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxThongTinMuon.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="datePicker_ngaytra.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy HH:mm:ss</value>
+  </data>
+  <data name="datePicker_ngaytra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 151</value>
+  </data>
+  <data name="datePicker_ngaytra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="datePicker_ngaytra.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaytra.Name" xml:space="preserve">
+    <value>datePicker_ngaytra</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaytra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaytra.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaytra.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="datePicker_ngaymuon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 119</value>
+  </data>
+  <data name="datePicker_ngaymuon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="datePicker_ngaymuon.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaymuon.Name" xml:space="preserve">
+    <value>datePicker_ngaymuon</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaymuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaymuon.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;datePicker_ngaymuon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_madocgia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 55</value>
+  </data>
+  <data name="txt_madocgia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="txt_madocgia.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txt_madocgia.Name" xml:space="preserve">
+    <value>txt_madocgia</value>
+  </data>
+  <data name="&gt;&gt;txt_madocgia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_madocgia.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;txt_madocgia.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_maphieumuon.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_maphieumuon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 33</value>
+  </data>
+  <data name="label_maphieumuon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="label_maphieumuon.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label_maphieumuon.Text" xml:space="preserve">
+    <value>Mã phiếu mượn :</value>
+  </data>
+  <data name="&gt;&gt;label_maphieumuon.Name" xml:space="preserve">
+    <value>label_maphieumuon</value>
+  </data>
+  <data name="&gt;&gt;label_maphieumuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_maphieumuon.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;label_maphieumuon.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_maphieumuon.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_maphieumuon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 26</value>
+  </data>
+  <data name="txt_maphieumuon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="txt_maphieumuon.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txt_maphieumuon.Name" xml:space="preserve">
+    <value>txt_maphieumuon</value>
+  </data>
+  <data name="&gt;&gt;txt_maphieumuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_maphieumuon.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;txt_maphieumuon.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_madocgia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_madocgia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 62</value>
+  </data>
+  <data name="label_madocgia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="label_madocgia.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label_madocgia.Text" xml:space="preserve">
+    <value>Mã độc giả :</value>
+  </data>
+  <data name="&gt;&gt;label_madocgia.Name" xml:space="preserve">
+    <value>label_madocgia</value>
+  </data>
+  <data name="&gt;&gt;label_madocgia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_madocgia.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;label_madocgia.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_masach.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 90</value>
+  </data>
+  <data name="txt_masach.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="txt_masach.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_masach.Name" xml:space="preserve">
+    <value>txt_masach</value>
+  </data>
+  <data name="&gt;&gt;txt_masach.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_masach.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;txt_masach.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label_masach.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_masach.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 97</value>
+  </data>
+  <data name="label_masach.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="label_masach.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label_masach.Text" xml:space="preserve">
+    <value>Mã sách :</value>
+  </data>
+  <data name="&gt;&gt;label_masach.Name" xml:space="preserve">
+    <value>label_masach</value>
+  </data>
+  <data name="&gt;&gt;label_masach.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_masach.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;label_masach.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label_ngaymuon.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_ngaymuon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 125</value>
+  </data>
+  <data name="label_ngaymuon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="label_ngaymuon.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_ngaymuon.Text" xml:space="preserve">
+    <value>Ngày mượn :</value>
+  </data>
+  <data name="&gt;&gt;label_ngaymuon.Name" xml:space="preserve">
+    <value>label_ngaymuon</value>
+  </data>
+  <data name="&gt;&gt;label_ngaymuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_ngaymuon.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;label_ngaymuon.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label_ngaytra.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_ngaytra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 158</value>
+  </data>
+  <data name="label_ngaytra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label_ngaytra.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_ngaytra.Text" xml:space="preserve">
+    <value>Ngày phải trả :</value>
+  </data>
+  <data name="&gt;&gt;label_ngaytra.Name" xml:space="preserve">
+    <value>label_ngaytra</value>
+  </data>
+  <data name="&gt;&gt;label_ngaytra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_ngaytra.Parent" xml:space="preserve">
+    <value>groupBoxThongTinMuon</value>
+  </data>
+  <data name="&gt;&gt;label_ngaytra.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btn_Them.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 55</value>
+  </data>
+  <data name="btn_Them.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_Them.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_Them.Text" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="&gt;&gt;btn_Them.Name" xml:space="preserve">
+    <value>btn_Them</value>
+  </data>
+  <data name="&gt;&gt;btn_Them.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Them.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Them.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_Sua.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 97</value>
+  </data>
+  <data name="btn_Sua.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_Sua.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btn_Sua.Text" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="&gt;&gt;btn_Sua.Name" xml:space="preserve">
+    <value>btn_Sua</value>
+  </data>
+  <data name="&gt;&gt;btn_Sua.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Sua.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Sua.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_Xoa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 137</value>
+  </data>
+  <data name="btn_Xoa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_Xoa.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_Xoa.Text" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="&gt;&gt;btn_Xoa.Name" xml:space="preserve">
+    <value>btn_Xoa</value>
+  </data>
+  <data name="&gt;&gt;btn_Xoa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Xoa.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Xoa.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <metadata name="MaPhieuMuon.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -138,4 +602,223 @@
   <metadata name="Status.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="dgv_PhieuMuon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 252</value>
+  </data>
+  <data name="dgv_PhieuMuon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>762, 150</value>
+  </data>
+  <data name="dgv_PhieuMuon.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgv_PhieuMuon.Name" xml:space="preserve">
+    <value>dgv_PhieuMuon</value>
+  </data>
+  <data name="&gt;&gt;dgv_PhieuMuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgv_PhieuMuon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgv_PhieuMuon.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="MaPhieuMuon.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="MaPhieuMuon.HeaderText" xml:space="preserve">
+    <value>Mã Phiếu</value>
+  </data>
+  <metadata name="HoTenDocGia.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="HoTenDocGia.HeaderText" xml:space="preserve">
+    <value>Tên Độc Giả</value>
+  </data>
+  <metadata name="TenSach.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="TenSach.HeaderText" xml:space="preserve">
+    <value>Tên Sách </value>
+  </data>
+  <metadata name="NgayMuon.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="NgayMuon.HeaderText" xml:space="preserve">
+    <value>Ngày Mượn</value>
+  </data>
+  <metadata name="NgayPhaiTra.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="NgayPhaiTra.HeaderText" xml:space="preserve">
+    <value>Ngày Phải Trả</value>
+  </data>
+  <metadata name="NguoiTao.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="NguoiTao.HeaderText" xml:space="preserve">
+    <value>Người Tạo</value>
+  </data>
+  <metadata name="Status.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Status.HeaderText" xml:space="preserve">
+    <value>Tình Trạng</value>
+  </data>
+  <data name="btn_Reset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 180</value>
+  </data>
+  <data name="btn_Reset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_Reset.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btn_Reset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;btn_Reset.Name" xml:space="preserve">
+    <value>btn_Reset</value>
+  </data>
+  <data name="&gt;&gt;btn_Reset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Reset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Reset.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_TimKiem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 221</value>
+  </data>
+  <data name="btn_TimKiem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_TimKiem.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btn_TimKiem.Text" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="&gt;&gt;btn_TimKiem.Name" xml:space="preserve">
+    <value>btn_TimKiem</value>
+  </data>
+  <data name="&gt;&gt;btn_TimKiem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_TimKiem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_TimKiem.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_TimKiem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>583, 221</value>
+  </data>
+  <data name="txt_TimKiem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="txt_TimKiem.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txt_TimKiem.Name" xml:space="preserve">
+    <value>txt_TimKiem</value>
+  </data>
+  <data name="&gt;&gt;txt_TimKiem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_TimKiem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_TimKiem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>682, 226</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Mã độc giả</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 431</value>
+  </data>
+  <data name="&gt;&gt;MaPhieuMuon.Name" xml:space="preserve">
+    <value>MaPhieuMuon</value>
+  </data>
+  <data name="&gt;&gt;MaPhieuMuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HoTenDocGia.Name" xml:space="preserve">
+    <value>HoTenDocGia</value>
+  </data>
+  <data name="&gt;&gt;HoTenDocGia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TenSach.Name" xml:space="preserve">
+    <value>TenSach</value>
+  </data>
+  <data name="&gt;&gt;TenSach.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NgayMuon.Name" xml:space="preserve">
+    <value>NgayMuon</value>
+  </data>
+  <data name="&gt;&gt;NgayMuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NgayPhaiTra.Name" xml:space="preserve">
+    <value>NgayPhaiTra</value>
+  </data>
+  <data name="&gt;&gt;NgayPhaiTra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NguoiTao.Name" xml:space="preserve">
+    <value>NguoiTao</value>
+  </data>
+  <data name="&gt;&gt;NguoiTao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Status.Name" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;Status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GUI_PhieuMuon</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
