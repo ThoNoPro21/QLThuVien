@@ -33,7 +33,7 @@
             this.toolStripAdmin = new System.Windows.Forms.ToolStrip();
             this.toolStrip_quanlythanhvien = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel7 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStrip_quanlysach = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStrip_quanlyphieumuon = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
@@ -101,7 +101,7 @@
             this.toolStripAdmin.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStrip_quanlythanhvien,
             this.toolStripSeparator5,
-            this.toolStripLabel7,
+            this.toolStrip_quanlysach,
             this.toolStripSeparator6,
             this.toolStrip_quanlyphieumuon,
             this.toolStripSeparator7,
@@ -125,11 +125,12 @@
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             this.toolStripSeparator5.Size = new System.Drawing.Size(6, 42);
             // 
-            // toolStripLabel7
+            // toolStrip_quanlysach
             // 
-            this.toolStripLabel7.Name = "toolStripLabel7";
-            this.toolStripLabel7.Size = new System.Drawing.Size(84, 39);
-            this.toolStripLabel7.Text = "Quản lý sách";
+            this.toolStrip_quanlysach.Name = "toolStrip_quanlysach";
+            this.toolStrip_quanlysach.Size = new System.Drawing.Size(84, 39);
+            this.toolStrip_quanlysach.Text = "Quản lý sách";
+            this.toolStrip_quanlysach.Click += new System.EventHandler(this.toolStrip_quanlysach_Click);
             // 
             // toolStripSeparator6
             // 
@@ -290,7 +291,7 @@
         private System.Windows.Forms.ToolStrip toolStripAdmin;
         private System.Windows.Forms.ToolStripLabel toolStrip_quanlythanhvien;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel7;
+        private System.Windows.Forms.ToolStripLabel toolStrip_quanlysach;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
         private System.Windows.Forms.ToolStripLabel toolStrip_quanlyphieumuon;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;

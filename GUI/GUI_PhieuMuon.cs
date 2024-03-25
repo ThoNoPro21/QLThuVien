@@ -23,7 +23,7 @@ namespace GUI
         }
         BLL_PhieuMuon bll_phieumuon = new BLL_PhieuMuon();
         BLL_DocGia bll_docgia = new BLL_DocGia();
-        BLL_Sach bll_sach = new BLL_Sach();
+        BLL_QLSach bll_sach = new BLL_QLSach();
         private void GUI_PhieuMuon_Load(object sender, EventArgs e)
         {
             dgv_PhieuMuon.DataSource = bll_phieumuon.LayTatCa();

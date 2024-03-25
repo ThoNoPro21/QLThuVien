@@ -70,17 +70,17 @@
     <Compile Include="GUI_PhieuTra.Designer.cs">
       <DependentUpon>GUI_PhieuTra.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI_QLSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_QLSach.designer.cs">
+      <DependentUpon>GUI_QLSach.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI_Register.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI_Register.Designer.cs">
       <DependentUpon>GUI_Register.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI_Sach.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI_Sach.Designer.cs">
-      <DependentUpon>GUI_Sach.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI_TrangChu.cs">
       <SubType>Form</SubType>
@@ -102,11 +102,11 @@
     <EmbeddedResource Include="GUI_PhieuTra.resx">
       <DependentUpon>GUI_PhieuTra.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI_QLSach.resx">
+      <DependentUpon>GUI_QLSach.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI_Register.resx">
       <DependentUpon>GUI_Register.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI_Sach.resx">
-      <DependentUpon>GUI_Sach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_TrangChu.resx">
       <DependentUpon>GUI_TrangChu.cs</DependentUpon>

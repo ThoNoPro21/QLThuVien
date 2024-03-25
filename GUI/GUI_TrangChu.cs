@@ -66,16 +66,6 @@ namespace GUI
             toolStripThongke.Visible = true;
         }
 
-        private void toolStripLabel1_Click(object sender, EventArgs e)
-        {
-            UserControl frm = new UserControl();
-            frm = new GUI_Sach();
-            panel_Chucnang.Controls.Clear();
-            frm.Dock = System.Windows.Forms.DockStyle.Fill;
-            panel_Chucnang.Controls.Add(frm);
-
-        }
-
 
         // Xử lý toolStrip Phiếu mượn khi được click
         private void toolStrip_quanlyphieumuon_Click(object sender, EventArgs e)
@@ -122,6 +112,16 @@ namespace GUI
         {
             UserControl frm = new UserControl();
             frm = new GUI_PhieuTra();
+            panel_Chucnang.Controls.Clear();
+            panel_Chucnang.BackgroundImage = null;
+            panel_Chucnang.Controls.Add(frm);
+            frm.Location = new Point((panel_Chucnang.Width - frm.Width) / 2, (panel_Chucnang.Height - frm.Height) / 2);
+        }
+
+        private void toolStrip_quanlysach_Click(object sender, EventArgs e)
+        {
+            UserControl frm = new UserControl();
+            frm = new GUI_QLSach();
             panel_Chucnang.Controls.Clear();
             panel_Chucnang.BackgroundImage = null;
             panel_Chucnang.Controls.Add(frm);

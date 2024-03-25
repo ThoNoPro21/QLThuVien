@@ -2,7 +2,6 @@ D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.GUI_Login.resources
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.GUI_PhieuMuon.resources
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.GUI_Register.resources
-D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.GUI_Sach.resources
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.GUI_TrangChu.resources
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.Properties.Resources.resources
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
@@ -22,3 +21,4 @@ D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.exe
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.pdb
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.GUI_DocGia.resources
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.GUI_PhieuTra.resources
+D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.GUI_QLSach.resources
