@@ -117,6 +117,16 @@ namespace GUI
             panel_Chucnang.Controls.Add(frm);
             frm.Location = new Point((panel_Chucnang.Width - frm.Width) / 2, (panel_Chucnang.Height - frm.Height) / 2);
         }
+
+        private void toolStrip_phieutra_Click(object sender, EventArgs e)
+        {
+            UserControl frm = new UserControl();
+            frm = new GUI_PhieuTra();
+            panel_Chucnang.Controls.Clear();
+            panel_Chucnang.BackgroundImage = null;
+            panel_Chucnang.Controls.Add(frm);
+            frm.Location = new Point((panel_Chucnang.Width - frm.Width) / 2, (panel_Chucnang.Height - frm.Height) / 2);
+        }
     }
 }
    

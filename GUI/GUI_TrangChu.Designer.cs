@@ -37,7 +37,7 @@
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStrip_quanlyphieumuon = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel9 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStrip_phieutra = new System.Windows.Forms.ToolStripLabel();
             this.toolStripThongke = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel10 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
@@ -105,7 +105,7 @@
             this.toolStripSeparator6,
             this.toolStrip_quanlyphieumuon,
             this.toolStripSeparator7,
-            this.toolStripLabel9});
+            this.toolStrip_phieutra});
             this.toolStripAdmin.Location = new System.Drawing.Point(0, 62);
             this.toolStripAdmin.Name = "toolStripAdmin";
             this.toolStripAdmin.Size = new System.Drawing.Size(800, 42);
@@ -148,11 +148,12 @@
             this.toolStripSeparator7.Name = "toolStripSeparator7";
             this.toolStripSeparator7.Size = new System.Drawing.Size(6, 42);
             // 
-            // toolStripLabel9
+            // toolStrip_phieutra
             // 
-            this.toolStripLabel9.Name = "toolStripLabel9";
-            this.toolStripLabel9.Size = new System.Drawing.Size(113, 39);
-            this.toolStripLabel9.Text = "Quản lý phiếu trả";
+            this.toolStrip_phieutra.Name = "toolStrip_phieutra";
+            this.toolStrip_phieutra.Size = new System.Drawing.Size(113, 39);
+            this.toolStrip_phieutra.Text = "Quản lý phiếu trả";
+            this.toolStrip_phieutra.Click += new System.EventHandler(this.toolStrip_phieutra_Click);
             // 
             // toolStripThongke
             // 
@@ -293,7 +294,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
         private System.Windows.Forms.ToolStripLabel toolStrip_quanlyphieumuon;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel9;
+        private System.Windows.Forms.ToolStripLabel toolStrip_phieutra;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel_Chucnang;
         private System.Windows.Forms.ToolStripMenuItem đăToolStripMenuItem;

@@ -21,3 +21,4 @@ D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.csproj.CopyComplete
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.exe
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.pdb
 D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.GUI_DocGia.resources
+D:\MyProject\Donet\QLThuVien\GUI\obj\Debug\GUI.GUI_PhieuTra.resources

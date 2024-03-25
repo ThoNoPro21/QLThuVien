@@ -64,6 +64,12 @@
     <Compile Include="GUI_PhieuMuon.Designer.cs">
       <DependentUpon>GUI_PhieuMuon.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI_PhieuTra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI_PhieuTra.Designer.cs">
+      <DependentUpon>GUI_PhieuTra.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI_Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_PhieuMuon.resx">
       <DependentUpon>GUI_PhieuMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_PhieuTra.resx">
+      <DependentUpon>GUI_PhieuTra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI_Register.resx">
       <DependentUpon>GUI_Register.cs</DependentUpon>

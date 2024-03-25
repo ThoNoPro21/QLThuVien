@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="BLL_DocGia.cs" />
     <Compile Include="BLL_PhieuMuon.cs" />
+    <Compile Include="BLL_PhieuTra.cs" />
     <Compile Include="BLL_Sach.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
