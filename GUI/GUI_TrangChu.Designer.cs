@@ -86,13 +86,12 @@
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(0, 104);
+            this.label1.Location = new System.Drawing.Point(0, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(800, 36);
+            this.label1.Size = new System.Drawing.Size(800, 78);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Welcome to TAY NGUYEN University";
+            this.label1.Text = "Welcome to TAY NGUYEN ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // toolStripAdmin
             // 
