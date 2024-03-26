@@ -49,8 +49,8 @@ namespace DAL.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=ATHO-INTLAPTOP\\SQLEXPRESS;Initial Catalog=QLThuVien;Persist Security " +
-            "Info=True;User ID=sa;Password=qaz12345;TrustServerCertificate=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=./;Initial Catalog=QLThuVien;Persist Security Info=True;User ID=sa;Pa" +
+            "ssword=123456;TrustServerCertificate=True")]
         public string QLThuVienConnectionString2 {
             get {
                 return ((string)(this["QLThuVienConnectionString2"]));

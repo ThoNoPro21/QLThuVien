@@ -33,7 +33,7 @@
         <elementListCompartment Id="f0e9e6ca-33ea-49c0-8c1d-45f57e3a76dc" absoluteBounds="1.0150000000000001, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(0.5 : 3.23159912109375); (0.26 : 3.23159912109375); (0.26 : 0.26); (1.41666666666667 : 0.259999999999999 : JumpStart); (1.58333333333333 : 0.26 : JumpEnd); (2 : 0.26); (2 : 0.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(0.5 : 3.23159912109375); (0.26 : 3.23159912109375); (0.26 : 0.26); (2 : 0.26); (2 : 0.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/QLThuVienDataContext/PHIEUMUON/PHIEUMUON_PHIEUTRA" />
       <nodes>
         <classShapeMoniker Id="9ea65fbc-0b8a-472b-87bf-75f2776e70a6" />
@@ -66,7 +66,7 @@
         <classShapeMoniker Id="9ea65fbc-0b8a-472b-87bf-75f2776e70a6" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(0.5 : 1.22637541861979); (0.3225 : 1.22637541861979); (0.3225 : 2.64704756054688); (0.5 : 2.64704756054688)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(0.5 : 1.22637541861979); (0.3225 : 1.22637541861979); (0.3225 : 2.64704756054688); (0.5 : 2.64704756054688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/QLThuVienDataContext/NHAXUATBAN/NHAXUATBAN_SACH" />
       <nodes>
         <classShapeMoniker Id="a0504273-03c4-43c7-8343-3db7ad76eea1" />
@@ -79,7 +79,7 @@
         <elementListCompartment Id="28374d23-2b48-4e91-9495-fd6c42bfa5e2" absoluteBounds="0.89, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(2.5624995 : 0.5); (2.5624995 : 0.3225); (2.33333333333333 : 0.322499999999999 : JumpStart); (2.16666666666667 : 0.3225 : JumpEnd); (1.58333333333333 : 0.322499999999999 : JumpStart); (1.41666666666667 : 0.3225 : JumpEnd); (0.1975 : 0.3225); (0.1975 : 4.03295721083734); (0.5 : 4.03295721083734)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(2.5624995 : 0.5); (2.5624995 : 0.3225); (0.1975 : 0.3225); (0.1975 : 4.03295721083734); (0.5 : 4.03295721083734)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/QLThuVienDataContext/TACGIA/TACGIA_SACH" />
       <nodes>
         <classShapeMoniker Id="2ab4fe37-5991-4fd7-9d8d-c05c08715156" />
@@ -92,7 +92,7 @@
         <elementListCompartment Id="1d491455-d903-45b9-a050-55551a1c4a63" absoluteBounds="0.515, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(0.5 : 2.07337067513021); (0.385 : 2.07337067513021); (0.385 : 2.35477178027344); (0.5 : 2.35477178027344)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(0.5 : 2.07337067513021); (0.385 : 2.07337067513021); (0.385 : 2.35477178027344); (0.5 : 2.35477178027344)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/QLThuVienDataContext/THELOAI/THELOAI_SACH" />
       <nodes>
         <classShapeMoniker Id="7eef0253-36f7-40d3-9973-434a1eac1729" />
@@ -105,7 +105,7 @@
         <elementListCompartment Id="d1854a2d-607b-42a7-b258-2ea60fd78f06" absoluteBounds="3.64, 2.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(3.625 : 3.52529581705729); (2.5 : 3.52529581705729)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(3.625 : 3.52529581705729); (2.5 : 3.52529581705729)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/QLThuVienDataContext/TINHTRANG/TINHTRANG_SACH" />
       <nodes>
         <classShapeMoniker Id="12e5d181-ee1b-4de0-8037-75b0f6948364" />

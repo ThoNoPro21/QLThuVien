@@ -5,3 +5,10 @@ D:\MyProject\Donet\QLThuVien\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
 D:\MyProject\Donet\QLThuVien\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\MyProject\Donet\QLThuVien\DAL\obj\Debug\DAL.dll
 D:\MyProject\Donet\QLThuVien\DAL\obj\Debug\DAL.pdb
+F:\QLThuVien\DAL\bin\Debug\DAL.dll.config
+F:\QLThuVien\DAL\bin\Debug\DAL.dll
+F:\QLThuVien\DAL\bin\Debug\DAL.pdb
+F:\QLThuVien\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\QLThuVien\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\QLThuVien\DAL\obj\Debug\DAL.dll
+F:\QLThuVien\DAL\obj\Debug\DAL.pdb

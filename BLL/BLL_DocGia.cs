@@ -2,6 +2,7 @@
 using DTO;
 using System;
 using System.Collections.Generic;
+using System.Data.Linq.SqlClient;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -86,22 +87,25 @@ namespace BLL
                         HoTen = DOCGIA.HoTen,
                         NgaySinh = DOCGIA.NgaySinh,
                         GioiTinh = DOCGIA.GioiTinh,
-                        DiaChi = DOCGIA.DiaChi
+                        DiaChi = DOCGIA.DiaChi,
+                        Quyen = DOCGIA.Quyen.ToString(),
+                        MatKhau = DOCGIA.MatKhau
                     };
 
 
         return query.ToList();
     }
     // Thêm độc giả
-    public bool InsertDocGia(string HoTen, DateTime NgaySinh, string GioiTinh, string DiaChi)
+    public bool InsertDocGia(string HoTen, DateTime NgaySinh, string GioiTinh, string DiaChi )
     {
+
         DOCGIA docgia = new DOCGIA();
         docgia.HoTen = HoTen;
         docgia.NgaySinh = NgaySinh;
         docgia.GioiTinh = GioiTinh;
         docgia.DiaChi = DiaChi;
-        docgia.MatKhau = "123";
-        docgia.Quyen = 1;
+     
+        //docgia.Quyen = 
         try
         {
             DB.DOCGIAs.InsertOnSubmit(docgia);

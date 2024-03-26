@@ -4,3 +4,9 @@ D:\MyProject\Donet\QLThuVien\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
 D:\MyProject\Donet\QLThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\MyProject\Donet\QLThuVien\DTO\obj\Debug\DTO.dll
 D:\MyProject\Donet\QLThuVien\DTO\obj\Debug\DTO.pdb
+F:\QLThuVien\DTO\bin\Debug\DTO.dll
+F:\QLThuVien\DTO\bin\Debug\DTO.pdb
+F:\QLThuVien\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+F:\QLThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+F:\QLThuVien\DTO\obj\Debug\DTO.dll
+F:\QLThuVien\DTO\obj\Debug\DTO.pdb

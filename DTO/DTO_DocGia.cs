@@ -17,5 +17,8 @@ namespace DTO
         public DateTime? NgaySinh { get; set; }
         public string GioiTinh { get; set; }
         public string DiaChi { get; set; }
+        public string Quyen { get; set; }
+        public string MatKhau { get; set; }
+
     }
 }

@@ -10,3 +10,15 @@ D:\MyProject\Donet\QLThuVien\BLL\bin\Debug\DTO.pdb
 D:\MyProject\Donet\QLThuVien\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\MyProject\Donet\QLThuVien\BLL\obj\Debug\BLL.dll
 D:\MyProject\Donet\QLThuVien\BLL\obj\Debug\BLL.pdb
+F:\QLThuVien\BLL\bin\Debug\BLL.dll
+F:\QLThuVien\BLL\bin\Debug\BLL.pdb
+F:\QLThuVien\BLL\bin\Debug\DAL.dll
+F:\QLThuVien\BLL\bin\Debug\DTO.dll
+F:\QLThuVien\BLL\bin\Debug\DAL.pdb
+F:\QLThuVien\BLL\bin\Debug\DAL.dll.config
+F:\QLThuVien\BLL\bin\Debug\DTO.pdb
+F:\QLThuVien\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+F:\QLThuVien\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\QLThuVien\BLL\obj\Debug\BLL.csproj.CopyComplete
+F:\QLThuVien\BLL\obj\Debug\BLL.dll
+F:\QLThuVien\BLL\obj\Debug\BLL.pdb
