@@ -12,3 +12,10 @@ F:\QLThuVien\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
 F:\QLThuVien\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 F:\QLThuVien\DAL\obj\Debug\DAL.dll
 F:\QLThuVien\DAL\obj\Debug\DAL.pdb
+E:\Test .NET\QLThuVien\DAL\bin\Debug\DAL.dll.config
+E:\Test .NET\QLThuVien\DAL\bin\Debug\DAL.dll
+E:\Test .NET\QLThuVien\DAL\bin\Debug\DAL.pdb
+E:\Test .NET\QLThuVien\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Test .NET\QLThuVien\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Test .NET\QLThuVien\DAL\obj\Debug\DAL.dll
+E:\Test .NET\QLThuVien\DAL\obj\Debug\DAL.pdb

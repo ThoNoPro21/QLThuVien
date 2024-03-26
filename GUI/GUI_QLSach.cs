@@ -33,6 +33,9 @@ namespace GUI
         private void LoadDataSach()
         {
             Load_List_Sach.DataSource = bllSach.GetAllSach();
+            Load_List_Sach.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            Load_List_Sach.ScrollBars = ScrollBars.Vertical;
+            Load_List_Sach.Refresh();
         }
         private void LoadTenTheLoai()
         {
@@ -330,6 +333,9 @@ namespace GUI
         private void RefreshBooksGridView()
         {
             Load_List_Sach.DataSource = bllSach.GetAllSach();
+            Load_List_Sach.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            Load_List_Sach.ScrollBars = ScrollBars.Vertical;
+            Load_List_Sach.Refresh();
         }
 
     }

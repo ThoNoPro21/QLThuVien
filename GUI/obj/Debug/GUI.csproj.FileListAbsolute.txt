@@ -46,3 +46,27 @@ F:\QLThuVien\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 F:\QLThuVien\GUI\obj\Debug\GUI.csproj.CopyComplete
 F:\QLThuVien\GUI\obj\Debug\GUI.exe
 F:\QLThuVien\GUI\obj\Debug\GUI.pdb
+E:\Test .NET\QLThuVien\GUI\bin\Debug\GUI.exe.config
+E:\Test .NET\QLThuVien\GUI\bin\Debug\GUI.exe
+E:\Test .NET\QLThuVien\GUI\bin\Debug\GUI.pdb
+E:\Test .NET\QLThuVien\GUI\bin\Debug\BLL.dll
+E:\Test .NET\QLThuVien\GUI\bin\Debug\DAL.dll
+E:\Test .NET\QLThuVien\GUI\bin\Debug\DTO.dll
+E:\Test .NET\QLThuVien\GUI\bin\Debug\BLL.pdb
+E:\Test .NET\QLThuVien\GUI\bin\Debug\DAL.pdb
+E:\Test .NET\QLThuVien\GUI\bin\Debug\DAL.dll.config
+E:\Test .NET\QLThuVien\GUI\bin\Debug\DTO.pdb
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.GUI_DocGia.resources
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.GUI_Login.resources
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.GUI_PhieuMuon.resources
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.GUI_PhieuTra.resources
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.GUI_QLSach.resources
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.GUI_Register.resources
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.GUI_TrangChu.resources
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.Properties.Resources.resources
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.csproj.CopyComplete
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.exe
+E:\Test .NET\QLThuVien\GUI\obj\Debug\GUI.pdb

@@ -60,7 +60,7 @@ namespace DAL
     #endregion
 		
 		public QLThuVienDataContext() : 
-				base(global::DAL.Properties.Settings.Default.QLThuVienConnectionString3, mappingSource)
+				base(global::DAL.Properties.Settings.Default.QLThuVienConnectionString4, mappingSource)
 		{
 			OnCreated();
 		}

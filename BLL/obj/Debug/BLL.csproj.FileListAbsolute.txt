@@ -22,3 +22,15 @@ F:\QLThuVien\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 F:\QLThuVien\BLL\obj\Debug\BLL.csproj.CopyComplete
 F:\QLThuVien\BLL\obj\Debug\BLL.dll
 F:\QLThuVien\BLL\obj\Debug\BLL.pdb
+E:\Test .NET\QLThuVien\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Test .NET\QLThuVien\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Test .NET\QLThuVien\BLL\obj\Debug\BLL.dll
+E:\Test .NET\QLThuVien\BLL\obj\Debug\BLL.pdb
+E:\Test .NET\QLThuVien\BLL\bin\Debug\BLL.dll
+E:\Test .NET\QLThuVien\BLL\bin\Debug\BLL.pdb
+E:\Test .NET\QLThuVien\BLL\bin\Debug\DAL.dll
+E:\Test .NET\QLThuVien\BLL\bin\Debug\DTO.dll
+E:\Test .NET\QLThuVien\BLL\bin\Debug\DAL.pdb
+E:\Test .NET\QLThuVien\BLL\bin\Debug\DAL.dll.config
+E:\Test .NET\QLThuVien\BLL\bin\Debug\DTO.pdb
+E:\Test .NET\QLThuVien\BLL\obj\Debug\BLL.csproj.CopyComplete

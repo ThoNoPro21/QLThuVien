@@ -10,3 +10,9 @@ F:\QLThuVien\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
 F:\QLThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 F:\QLThuVien\DTO\obj\Debug\DTO.dll
 F:\QLThuVien\DTO\obj\Debug\DTO.pdb
+E:\Test .NET\QLThuVien\DTO\bin\Debug\DTO.dll
+E:\Test .NET\QLThuVien\DTO\bin\Debug\DTO.pdb
+E:\Test .NET\QLThuVien\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\Test .NET\QLThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\Test .NET\QLThuVien\DTO\obj\Debug\DTO.dll
+E:\Test .NET\QLThuVien\DTO\obj\Debug\DTO.pdb
