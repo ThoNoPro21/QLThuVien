@@ -231,6 +231,8 @@ namespace GUI
                 txtDiaChi.Text = row.Cells[4].Value?.ToString();
             }
         }
+
+       
     }
 }
    

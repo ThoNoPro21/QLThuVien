@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\BLL",
+    "\\DAL",
     "\\GUI"
   ],
-  "SelectedNode": "\\GUI\\GUI_TrangChu.cs",
+  "SelectedNode": "\\DAL\\DAL.csproj",
   "PreviewInSolutionExplorer": false
 }
