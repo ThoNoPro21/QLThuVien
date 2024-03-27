@@ -69,9 +69,25 @@ namespace BLL
             throw new ArgumentException("Invalid username or password.");
         }
     }
+    //Lấy độc giả theo mã độc giả
+    public int getDocGiaByMaDocGia(int madocgia)
+    {
+         DOCGIA docgia = DB.DOCGIAs.FirstOrDefault(dg => dg.MaDocGia == madocgia);
+            try
+            {
+                if (docgia !=null)
+                {
+                    return docgia.Quyen;
+                }
+                else { 
+                return 0;
+                }
+            }
+            catch { return 0; }
+    }
 
-    //Kiểm tra độc giả có tồn tại hay không
-    public bool IsCheckMaDocGia(int madocgia)
+        //Kiểm tra độc giả có tồn tại hay không
+        public bool IsCheckMaDocGia(int madocgia)
     {
         bool exists = DB.DOCGIAs.Any(dg => dg.MaDocGia == madocgia);
 
@@ -96,7 +112,7 @@ namespace BLL
         return query.ToList();
     }
     // Thêm độc giả
-    public bool InsertDocGia(string HoTen, DateTime NgaySinh, string GioiTinh, string DiaChi )
+    public bool InsertDocGia(string HoTen, DateTime NgaySinh, string GioiTinh, string DiaChi ,string MatKhau="123",int Quyen=3)
     {
 
         DOCGIA docgia = new DOCGIA();
@@ -104,10 +120,10 @@ namespace BLL
         docgia.NgaySinh = NgaySinh;
         docgia.GioiTinh = GioiTinh;
         docgia.DiaChi = DiaChi;
-     
-        //docgia.Quyen = 
-        try
-        {
+        docgia.MatKhau = MatKhau;
+        docgia.Quyen = Quyen;
+            try
+            {
             DB.DOCGIAs.InsertOnSubmit(docgia);
             DB.SubmitChanges();
             return true;
@@ -119,7 +135,7 @@ namespace BLL
         }
     }
     // Sửa độc giả
-    public bool UpdateDocGia(int MaDocGia, string HoTen, DateTime NgaySinh, string GioiTinh, string DiaChi)
+    public bool UpdateDocGia(int MaDocGia, string HoTen, DateTime NgaySinh, string GioiTinh, string DiaChi,string MatKhau="123",int Quyen=3)
     {
         DOCGIA docgia = DB.DOCGIAs.Where(dg => dg.MaDocGia == MaDocGia).FirstOrDefault();
         if (docgia != null)
@@ -128,8 +144,8 @@ namespace BLL
             docgia.NgaySinh = NgaySinh;
             docgia.GioiTinh = GioiTinh;
             docgia.DiaChi = DiaChi;
-            docgia.MatKhau = "123";
-            docgia.Quyen = 1;
+            docgia.MatKhau = MatKhau;
+            docgia.Quyen = Quyen;
             DB.SubmitChanges();
             return true;
         }

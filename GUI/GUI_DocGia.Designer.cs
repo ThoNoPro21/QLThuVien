@@ -51,10 +51,10 @@
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.gridview = new System.Windows.Forms.DataGridView();
-            this.txtMatkhau = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Matkhau = new System.Windows.Forms.Label();
+            this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtQuyen = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.gridview)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,6 +84,7 @@
             this.cboGioiTinh.Name = "cboGioiTinh";
             this.cboGioiTinh.Size = new System.Drawing.Size(190, 21);
             this.cboGioiTinh.TabIndex = 429;
+            this.cboGioiTinh.SelectedIndexChanged += new System.EventHandler(this.cboGioiTinh_SelectedIndexChanged);
             // 
             // dtNgaySinh
             // 
@@ -321,23 +322,23 @@
             this.gridview.TabIndex = 409;
             this.gridview.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridview_CellClick);
             // 
-            // txtMatkhau
+            // Matkhau
             // 
-            this.txtMatkhau.AutoSize = true;
-            this.txtMatkhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatkhau.ForeColor = System.Drawing.Color.Black;
-            this.txtMatkhau.Location = new System.Drawing.Point(51, 128);
-            this.txtMatkhau.Name = "txtMatkhau";
-            this.txtMatkhau.Size = new System.Drawing.Size(62, 16);
-            this.txtMatkhau.TabIndex = 433;
-            this.txtMatkhau.Text = "Mật Khẩu";
+            this.Matkhau.AutoSize = true;
+            this.Matkhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Matkhau.ForeColor = System.Drawing.Color.Black;
+            this.Matkhau.Location = new System.Drawing.Point(51, 128);
+            this.Matkhau.Name = "Matkhau";
+            this.Matkhau.Size = new System.Drawing.Size(62, 16);
+            this.Matkhau.TabIndex = 433;
+            this.Matkhau.Text = "Mật Khẩu";
             // 
-            // textBox1
+            // txtMatKhau
             // 
-            this.textBox1.Location = new System.Drawing.Point(163, 128);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 20);
-            this.textBox1.TabIndex = 432;
+            this.txtMatKhau.Location = new System.Drawing.Point(163, 128);
+            this.txtMatKhau.Name = "txtMatKhau";
+            this.txtMatKhau.Size = new System.Drawing.Size(191, 20);
+            this.txtMatKhau.TabIndex = 432;
             // 
             // label8
             // 
@@ -350,24 +351,24 @@
             this.label8.TabIndex = 435;
             this.label8.Text = "Quyền";
             // 
-            // comboBox1
+            // txtQuyen
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Nhân Viên"});
-            this.comboBox1.Location = new System.Drawing.Point(508, 122);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(190, 21);
-            this.comboBox1.TabIndex = 436;
+            this.txtQuyen.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtQuyen.FormattingEnabled = true;
+            this.txtQuyen.Location = new System.Drawing.Point(508, 122);
+            this.txtQuyen.Name = "txtQuyen";
+            this.txtQuyen.Size = new System.Drawing.Size(190, 21);
+            this.txtQuyen.TabIndex = 436;
+            this.txtQuyen.SelectedIndexChanged += new System.EventHandler(this.txtQuyen_SelectedIndexChanged);
             // 
             // GUI_DocGia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.txtQuyen);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.txtMatkhau);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Matkhau);
+            this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtHoTenSearch);
             this.Controls.Add(this.cboGioiTinh);
@@ -425,9 +426,9 @@
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Button btnLamMoi;
         private System.Windows.Forms.DataGridView gridview;
-        private System.Windows.Forms.Label txtMatkhau;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label Matkhau;
+        private System.Windows.Forms.TextBox txtMatKhau;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox txtQuyen;
     }
 }

@@ -1,13 +1,16 @@
 ﻿using BLL;
+using DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace GUI
 {
@@ -32,6 +35,26 @@ namespace GUI
             HienThiDocGia();
             //Làm mờ các textbox, button
             boolcontrols(true);
+            Dictionary<string, string> keyValuePairs = new Dictionary<string, string>
+            {
+                { "Nhân viên", "2" },
+                { "Độc giả", "3" },
+            // Thêm các cặp khác nếu cần
+            };
+
+            txtQuyen.DataSource = new BindingSource(keyValuePairs, null);
+            txtQuyen.DisplayMember = "Key";
+            txtQuyen.ValueMember = "Value";
+            int quyen = bll_docgia.getDocGiaByMaDocGia(DTO_DocGia.MaDocGia);
+            if (quyen != 1)
+            {
+                txtQuyen.Enabled=false;
+                txtQuyen.SelectedValue = "3";
+            }
+            else
+            {
+                txtQuyen.Enabled = true;
+            }
         }
         //Lấy danh sách độc giả
         private void HienThiDocGia()
@@ -59,6 +82,7 @@ namespace GUI
                 dtNgaySinh.Text = row.Cells[2].Value?.ToString();
                 cboGioiTinh.Text = row.Cells[3].Value?.ToString();
                 txtDiaChi.Text = row.Cells[4].Value?.ToString();
+
             }
         }
         //Lấy danh sách giới tính nam hoặc nữ lên combobox
@@ -145,9 +169,9 @@ namespace GUI
                 return;
         }
 
+       
         private void btnLuu_Click(object sender, EventArgs e)
         {
-            //kiểm tra đã nhập họ tên hay chưa
             if (txtHoTen.Text.Trim() == "")
             {
                 MessageBox.Show("Tên độc giả không được trống hoặc khoảng trắng", "Thông báo",
@@ -155,11 +179,19 @@ namespace GUI
                 txtHoTen.Focus();
                 return;
             }
+            
+            if (txtDiaChi.Text.Trim() == "")
+            {
+                MessageBox.Show("Địa chỉ không được trống hoặc khoảng trắng", "Thông báo",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtDiaChi.Focus();
+                return;
+            }
             //lưu == true tức là Thêm
             if (luu == true)
             {
                 //tiến hành thêm
-                bool result = bll_docgia.InsertDocGia(txtHoTen.Text, dtNgaySinh.Value, cboGioiTinh.Text, txtDiaChi.Text);
+                bool result = bll_docgia.InsertDocGia(txtHoTen.Text.Trim(), dtNgaySinh.Value, cboGioiTinh.Text.Trim(), txtDiaChi.Text.Trim(),bll_docgia.CalculateMD5Hash(txtMatKhau.Text),Convert.ToInt32(txtQuyen.SelectedValue.ToString()));
                 if (result) //thêm thành công
                 {
                     MessageBox.Show("Thêm thành công !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -175,7 +207,7 @@ namespace GUI
             else //else lúc này tức là Sửa
             {
                 //tiến hành sửa
-                bool result = bll_docgia.UpdateDocGia(int.Parse(txtMaDocGia.Text), txtHoTen.Text, dtNgaySinh.Value, cboGioiTinh.Text, txtDiaChi.Text);
+                bool result = bll_docgia.UpdateDocGia(int.Parse(txtMaDocGia.Text), txtHoTen.Text.Trim(), dtNgaySinh.Value, cboGioiTinh.Text, txtDiaChi.Text.Trim(), bll_docgia.CalculateMD5Hash(txtMatKhau.Text), Convert.ToInt32( txtQuyen.SelectedValue.ToString()));
                 if (result) //sửa thành công
                 {
                     MessageBox.Show("Sửa thành công !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -229,10 +261,19 @@ namespace GUI
                 dtNgaySinh.Text = row.Cells[2].Value?.ToString();
                 cboGioiTinh.Text = row.Cells[3].Value?.ToString();
                 txtDiaChi.Text = row.Cells[4].Value?.ToString();
+                txtMatKhau.Text = bll_docgia.CalculateMD5Hash(row.Cells[6].Value?.ToString());   
             }
         }
 
-       
+        private void txtQuyen_SelectedIndexChanged(object sender, EventArgs e)
+        {
+             txtQuyen.SelectedValue.ToString();
+        }
+
+        private void cboGioiTinh_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
    

@@ -11,8 +11,9 @@ namespace DTO
         public int MaPhieuMuon { get; set; }
         public int MaPhieuTra { get; set; }
         public DateTime? NgayMuon { get; set; }
+        public DateTime? NgayPhaiTra { get; set; }
         public DateTime? NgayTra { get; set; }
         public string MaSach { get; set; }
-        public int NguoiTao { get; set; }
+        public string NguoiTao { get; set; }
     }
 }

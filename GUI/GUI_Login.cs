@@ -24,9 +24,9 @@ namespace GUI
         }
 
         BLL_DocGia bll_docgia = new BLL_DocGia();
-       
 
-        
+        public static int useLogin;
+        public static string nameLogin;
 
         private void GUI_Login_KeyDown(object sender, KeyEventArgs e)
         {
@@ -51,7 +51,14 @@ namespace GUI
             {
                 try
                 {
+                    if (IsCheck.Quyen == 3)
+                    {
+                    MessageBox.Show("Tài khoản không có quyền truy cập !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
                     DTO_DocGia.MaDocGia = IsCheck.MaDocGia;
+                    useLogin = DTO_DocGia.MaDocGia;
+                    nameLogin = txt_Username.Text;
                     this.Hide();
                     GUI_TrangChu frm_trangchu = new GUI_TrangChu(IsCheck.Quyen);
                     frm_trangchu.ShowDialog();

@@ -19,14 +19,16 @@ namespace BLL
             var query = from a in DB.PHIEUTRAs
                         join b in DB.PHIEUMUONs on a.MaPhieuMuon equals b.MaPhieuMuon
                              join c in DB.SACHes on b.MaSach equals c.MaSach
-                                select new DTO_PhieuTraInfo
+                                join d in DB.DOCGIAs on a.NguoiTao equals d.MaDocGia
+                        select new DTO_PhieuTraInfo
                                         {
                                             MaPhieuMuon = a.MaPhieuMuon,
                                             MaPhieuTra = a.MaPhieuTra,
                                             NgayMuon = b.NgayMuon,
+                                            NgayPhaiTra = b.NgayPhaiTra,
                                             NgayTra = a.NgayTra,
                                             MaSach = c.TenSach,
-                                            NguoiTao = a.NguoiTao
+                                            NguoiTao = d.HoTen
                                 };
 
 
@@ -84,6 +86,31 @@ namespace BLL
             {
                 return false;
             }
+        }
+        //Lấy ngày mượn của phiếu mượn
+        public List<DTO_PhieuMuonInfo> GetNgayMuon(int MaPhieuMuon)
+        {
+            var query = from a in DB.PHIEUMUONs.Where(x=>x.MaPhieuMuon == MaPhieuMuon)
+                        select new DTO_PhieuMuonInfo
+                        {
+                            NgayMuon = a.NgayMuon,
+                        };
+            return query.ToList();
+        }
+        // Lấy thông tin phiếu mượn
+        public List<DTO_PhieuMuonInfo> LayThongTinPhieuMuon()
+        {
+            var query = from phieuMuon in DB.PHIEUMUONs
+                        where !(from o in DB.PHIEUTRAs
+                                select o.MaPhieuMuon)
+                        .Contains(phieuMuon.MaPhieuMuon)
+                        
+                        select new DTO_PhieuMuonInfo
+                        {
+                            MaPhieuMuon = phieuMuon.MaPhieuMuon,
+                        };
+
+            return query.ToList();
         }
     }
 }

@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>GUI</RootNamespace>
     <AssemblyName>GUI</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -69,7 +69,7 @@
     <Compile Include="GUI_PhieuTra.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI_PhieuTra.Designer.cs">
+    <Compile Include="GUI_PhieuTra.designer.cs">
       <DependentUpon>GUI_PhieuTra.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI_QLSach.cs">

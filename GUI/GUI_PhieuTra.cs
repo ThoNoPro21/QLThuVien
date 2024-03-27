@@ -48,24 +48,26 @@ namespace GUI
 
         private void GUI_PhieuTra_Load(object sender, EventArgs e)
         {
-            ComboboxDanhSachPhieuMuon();
             HienThiPhieuTra();
             EnabledControls(true);
         }
         private void HienThiPhieuTra()
         {
+            ComboboxDanhSachPhieuMuon();
             gridview.DataSource = bll_pt.LayTatCa(txtMaPhieuTraSearch.Text);
             //Định nghĩa tên các cột của datagridvie
             gridview.Columns[0].HeaderText = "Mã phiếu mượn";
             gridview.Columns[1].HeaderText = "Mã phiếu trả";
             gridview.Columns[2].HeaderText = "Ngày mượn";
-            gridview.Columns[3].HeaderText = "Ngày trả";
-            gridview.Columns[4].HeaderText = "Sách mượn";
-            gridview.Columns[5].HeaderText = "Người tạo";
+            gridview.Columns[3].HeaderText = "Ngày phải trả";
+            gridview.Columns[4].HeaderText = "Ngày trả";
+            gridview.Columns[5].HeaderText = "Sách mượn";
+            gridview.Columns[6].HeaderText = "Người tạo";
 
             if (gridview.Rows.Count == 0)
             {
-                txtNguoiTao.Text = "";
+                txtNguoiTao.Text = GUI_Login.nameLogin;
+                txtMaPhieuTra.Text = "";
             }
 
             else
@@ -73,8 +75,8 @@ namespace GUI
                 var row = this.gridview.Rows[0];
                 txtMaPhieuTra.Text = row.Cells[1].Value.ToString();
                 cboMaPhieuMuon.Text = row.Cells[0].Value.ToString();
-                dtNgayTra.Text = row.Cells[3].Value.ToString();
-                txtNguoiTao.Text = row.Cells[5].Value.ToString();
+                dtNgayTra.Text = row.Cells[4].Value.ToString();
+                txtNguoiTao.Text = row.Cells[6].Value.ToString();
             }
         }
         private void EnabledControls(bool iss)
@@ -87,12 +89,11 @@ namespace GUI
             btnTim.Enabled = iss;
             cboMaPhieuMuon.Enabled = !iss;
             dtNgayTra.Enabled = !iss;
-            txtNguoiTao.Enabled = !iss;
         }
         private void ComboboxDanhSachPhieuMuon()
         {
             DataTable dataTable = new DataTable();
-            dataTable = ToDataTable(bll_pm.LayTatCa());
+            dataTable = ToDataTable(bll_pt.LayThongTinPhieuMuon());
             cboMaPhieuMuon.DataSource = dataTable;
             cboMaPhieuMuon.DisplayMember = "MaPhieuMuon";
             cboMaPhieuMuon.ValueMember = "MaPhieuMuon";
@@ -104,8 +105,8 @@ namespace GUI
                 DataGridViewRow row = this.gridview.Rows[e.RowIndex];
                 txtMaPhieuTra.Text = row.Cells[1].Value.ToString();
                 cboMaPhieuMuon.Text = row.Cells[0].Value.ToString();
-                dtNgayTra.Text = row.Cells[3].Value.ToString();
-                txtNguoiTao.Text = row.Cells[5].Value.ToString();
+                dtNgayTra.Text = row.Cells[4].Value.ToString();
+                txtNguoiTao.Text = row.Cells[6].Value.ToString();
             }
         }
 
@@ -176,9 +177,21 @@ namespace GUI
                 cboMaPhieuMuon.Focus();
                 return;
             }
+            DataTable dt = new DataTable();
+            dt = ToDataTable(bll_pt.GetNgayMuon(int.Parse(cboMaPhieuMuon.Text)));
+
+            if (dtNgayTra.Value < DateTime.Parse(dt.Rows[0][3].ToString()))
+            {
+                MessageBox.Show("Ngày trả phải lớn hơn hoặc bằng ngày mượn, ngày mượn là "+ dt.Rows[0][3].ToString() + "", "Thông báo",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                dtNgayTra.Focus();
+                return;
+            }
+                
+
             if (save == true)
             {
-                bool result = bll_pt.InsertPHIEUTRA(int.Parse(cboMaPhieuMuon.Text), dtNgayTra.Value, int.Parse(txtNguoiTao.Text));
+                bool result = bll_pt.InsertPHIEUTRA(int.Parse(cboMaPhieuMuon.Text), dtNgayTra.Value, GUI_Login.useLogin);
                 if (result) //thêm thành công
                 {
                     MessageBox.Show("Thêm thành công !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -193,7 +206,7 @@ namespace GUI
             }
             else
             {
-                bool result = bll_pt.UpdatePHIEUTRA(int.Parse(txtMaPhieuTra.Text), dtNgayTra.Value, int.Parse(txtNguoiTao.Text));
+                bool result = bll_pt.UpdatePHIEUTRA(int.Parse(txtMaPhieuTra.Text), dtNgayTra.Value, GUI_Login.useLogin);
                 if (result) //sửa thành công
                 {
                     MessageBox.Show("Sửa thành công !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
